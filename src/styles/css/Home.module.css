@@ -1,0 +1,18 @@
+.main {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.main table {
+  table-layout: fixed;
+  width: 80%;
+}
+
+.main table th, .main table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px 2px;
+  text-align: center;
+  word-wrap: break-word;
+}
