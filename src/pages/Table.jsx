@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import style from '../styles/css/Table.module.css';
 
 export default function Table({ filter }) {
   return (
