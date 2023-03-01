@@ -1,7 +1,7 @@
-<h1 align='center' id='Título-e-Imagem-de-capa'>Trivia</h1>
+<h1 align='center' id='Título-e-Imagem-de-capa'>StarWars Planets Search</h1>
 
 <p align='center'>
-<img src='https://grupo-10-trivia.surge.sh/static/media/logoTrivia.713a2b06f256fb71e176ebc2854b7ecf.svg' width="230" heigth="259"/>
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/694px-Star_Wars_Logo.svg.png' width="230" heigth="259"/>
 </p>
 
 
@@ -11,7 +11,7 @@
 <img src='https://img.shields.io/badge/STATUS-FINALIZADO-Green' width='250px'></img>
 </p>
 
-<h2>Deploy: https://grupo-10-trivia.surge.sh</h2>
+<h2>Deploy: https://oitavo-projeto.surge.sh</h2>
 
 </br>
 
