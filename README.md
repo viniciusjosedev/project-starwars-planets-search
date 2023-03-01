@@ -41,7 +41,7 @@
 ### Depois de clonado, abra a o terminal na raiz do projeto e rode o seguinte comando:
 
 ```bash
-  npm install && npm start
+  npm i && npm start
 ```
 
 ### Pronto! Com isso a aplicação irá rodar na sua máquina localmente.
