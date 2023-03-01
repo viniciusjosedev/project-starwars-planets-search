@@ -1,1 +1,22 @@
+table {
+  color: white;
+  table-layout: fixed;
+  width: 100%;
+}
 
+table th, table td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 5px 2px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+table th {
+  background-color: #2e3035;
+}
+
+table td {
+  border: none;
+  border-bottom: 2px solid #696969;
+}

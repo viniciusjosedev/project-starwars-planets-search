@@ -6,7 +6,7 @@ body {
 	width: 100%;
 	height: 100vh;
 	display: flex;
-	flex-flow: column wrap;
+	flex-flow: column nowrap;
 	background-image: url('../images/backgroundImage.svg');
 	background-size: cover;
 }
@@ -16,6 +16,7 @@ body {
 	flex-flow: column wrap;
 	align-items: center;
 	width: 100%;
+	margin-bottom: 20px;
 	img {
 		width: 949.47px;
 		height: 949.47px;
@@ -96,20 +97,62 @@ body {
 				div {
 					margin-right: 20px;
 			}
-
+			}
+			.filtersAplication {
+				margin-top: 20px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				// background-color: blue;
+				// justify-content: center;
+				margin-left: 35px;
+				.button {
+					width: 91px;
+					height: 85px;
+					background: transparent;
+					margin-right: 20px;
+					border: none;
+					border: 2px solid #FAE60A;
+					color: white;
+					font-weight: bolder;
+				}
+				div {
+					display: flex;
+					button {
+						// display: flex;
+						// align-items: center;
+						background-color: transparent;
+						border: none;
+						border: 2px solid #FAE60A;
+						margin-top: 20px;
+						color: white;
+						font-weight: bolder;
+						margin-bottom: 20px;
+						svg {
+							margin-top: -2px;
+							color: #FAE60A;
+						}
+					}
+				}
 			}
 
-		}
-		table {
-			table-layout:fixed;
-			width: 80%;
-			th, td {
-			text-align: center;
-			border: 1px solid black;
-			border-collapse: collapse;
-			padding: 5px 2px;
-			word-wrap:break-word;
-			}
 		}
 	}
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	flex-direction: column;
+	background-color: black;
+
+	h1 {
+		font-size: 14px;
+		&.firstH1 {
+			margin-top: 20px;
+		}
+	}
+
 }
