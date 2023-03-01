@@ -48,7 +48,7 @@
 
 ## Descrição do projeto
 
-### Projeto em grupo realizado mediante a necessidade da prática em conceitos inicialmente abordados de forma teórica. Conceitos esses que se diz respeito ao uso do ContextAPI para trabalhar com estados globais nas aplicações de react. Sendo assim, tendo mais uma ferramenta em paralelo ao Redux.
+### Projeto realizado mediante a necessidade da prática em conceitos inicialmente abordados de forma teórica. Conceitos esses que se diz respeito ao uso do ContextAPI para trabalhar com estados globais nas aplicações de react. Sendo assim, tendo mais uma ferramenta em paralelo ao Redux.
 ### Neste projeto em específico, pratiquei ainda mais a forma de se desenvolver uma aplicação em React. Usando pela primeira vez componentes de funções, e junto com eles, tambem usei os conhecimentos de hooks. Hooks esses que foram tanto nativos quanto personalizados.
 ### Além disso, pratiquei requisições para API's, junto com isso, veio a necessidade de tratar essas requisições como uma Promise e então encaminhar os resultados para a tela do usuário.
 ### API('s) usada(s):
