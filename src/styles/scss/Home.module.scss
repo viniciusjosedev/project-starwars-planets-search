@@ -1,18 +1,115 @@
-.main {
-	// background-color: red;
+* {
+	margin: 0px;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
 	display: flex;
 	flex-flow: column wrap;
-	// justify-content: center;
+	background-image: url('../images/backgroundImage.svg');
+	background-size: cover;
+}
+
+.main {
+	display: flex;
+	flex-flow: column wrap;
 	align-items: center;
-	table {
-		table-layout:fixed;
-		width: 80%;
-		th, td {
-		text-align: center;
-		border: 1px solid black;
-		border-collapse: collapse;
-		padding: 5px 2px;
-		word-wrap:break-word;
+	width: 100%;
+	img {
+		width: 949.47px;
+		height: 949.47px;
+		// background-color: red;
+	}
+	section {
+		width: 94.69%;
+		border: 2px solid white;
+		border-radius: 20px;
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+		// background-color: blue;
+		margin-top: -140px;
+		.divFilters {
+			// width: 92.66%;
+			// background-color: red;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			display: flex;
+			flex-direction: column;
+		  .divOnlyInputText {
+				display: flex;
+				justify-content: center;
+				// align-items: center;
+				input {
+					width: 671px;
+					height: 42px;
+					margin-bottom: 40px;
+					background: transparent;
+				}
+				img {
+					margin-top: 10px;
+					margin-left: -30px;
+					width: 20px;
+					height: 20px;
+				}
+			}
+			.outerFilters {
+				// background-color: aqua;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				.inputSelect {
+					width: 140px;
+					background: transparent;
+					color: white;
+					font-size: 12px;
+					font-weight: bolder;
+					margin-right: 20px;
+					margin-left: 20px;
+					height: 49px;
+					&:focus {
+						background: black;
+						color: #FAE60A;
+					}
+				}
+				.inputNumber {
+					width: 110px;
+					margin-right: 20px;
+					height: 49px;
+					color: white;
+					font-weight: bolder;
+					background: transparent;
+				}
+				.button {
+					width: 91px;
+					height: 85px;
+					background: transparent;
+					margin-right: 20px;
+					border: none;
+					border: 2px solid #FAE60A;
+				}
+				.label {
+					color: white;
+					font-weight: bolder;
+				}
+				div {
+					margin-right: 20px;
+			}
+
+			}
+
+		}
+		table {
+			table-layout:fixed;
+			width: 80%;
+			th, td {
+			text-align: center;
+			border: 1px solid black;
+			border-collapse: collapse;
+			padding: 5px 2px;
+			word-wrap:break-word;
+			}
 		}
 	}
 }

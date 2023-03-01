@@ -1,18 +1,107 @@
-.main {
-  align-items: center;
-  display: flex;
-  flex-flow: column wrap;
+* {
+  margin: 0px;
 }
 
-.main table {
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  background-image: url("../images/backgroundImage.svg");
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 100%;
+}
+.main img {
+  width: 949.47px;
+  height: 949.47px;
+}
+.main section {
+  width: 94.69%;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-top: -140px;
+}
+.main section .divFilters {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.main section .divFilters .divOnlyInputText {
+  display: flex;
+  justify-content: center;
+}
+.main section .divFilters .divOnlyInputText input {
+  width: 671px;
+  height: 42px;
+  margin-bottom: 40px;
+  background: transparent;
+}
+.main section .divFilters .divOnlyInputText img {
+  margin-top: 10px;
+  margin-left: -30px;
+  width: 20px;
+  height: 20px;
+}
+.main section .divFilters .outerFilters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main section .divFilters .outerFilters .inputSelect {
+  width: 140px;
+  background: transparent;
+  color: white;
+  font-size: 12px;
+  font-weight: bolder;
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 49px;
+}
+.main section .divFilters .outerFilters .inputSelect:focus {
+  background: black;
+  color: #FAE60A;
+}
+.main section .divFilters .outerFilters .inputNumber {
+  width: 110px;
+  margin-right: 20px;
+  height: 49px;
+  color: white;
+  font-weight: bolder;
+  background: transparent;
+}
+.main section .divFilters .outerFilters .button {
+  width: 91px;
+  height: 85px;
+  background: transparent;
+  margin-right: 20px;
+  border: none;
+  border: 2px solid #FAE60A;
+}
+.main section .divFilters .outerFilters .label {
+  color: white;
+  font-weight: bolder;
+}
+.main section .divFilters .outerFilters div {
+  margin-right: 20px;
+}
+.main section table {
   table-layout: fixed;
   width: 80%;
 }
-
-.main table th, .main table td {
+.main section table th, .main section table td {
+  text-align: center;
   border: 1px solid black;
   border-collapse: collapse;
   padding: 5px 2px;
-  text-align: center;
   word-wrap: break-word;
 }
